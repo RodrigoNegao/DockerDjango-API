@@ -19,13 +19,22 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
+# SECRET_KEY = os.environ.get("SECRET_KEY")
+
+# DEBUG = int(os.environ.get("DEBUG", default=0))
+
+# # 'DJANGO_ALLOWED_HOSTS' should be a single string of hosts with a space between each.
+# # For example: 'DJANGO_ALLOWED_HOSTS=localhost 127.0.0.1 [::1]'
+# ALLOWED_HOSTS = os.environ.get("DJANGO_ALLOWED_HOSTS").split(" ")
+
+
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'xqxnqfb(97ne*esam-^t(=l+vzxpe&4%pftj&%zaq*yu6hrou2'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -86,8 +95,8 @@ DATABASES = {
         'PORT': 5432,
     }
     # 'default': {
-    #     'ENGINE': 'django.db.backends.sqlite3',
-    #     'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+    #     'ENGINE': 'django.db.backends.sqlite3', 
+    #     'NAME':  os.path.join(BASE_DIR, 'db.sqlite3'), #'db.sqlite3'
     # }
 }
 
@@ -116,7 +125,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'America/Sao_Paulo'#'UTC'
 
 USE_I18N = True
 

@@ -53,5 +53,5 @@ python manage.py runserver 0.0.0.0:8000
 ```
 - digite no Browser di seu celular o ip encontrado - 'http://ip-address:8000'
 
-# Configuração Docker para Django
+## Configuração Docker para Django
 - OPCIONAL [Docker Compose para Django](https://docs.docker.com/compose/django/)
