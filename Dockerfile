@@ -1,12 +1,10 @@
 # pull official base image
 FROM python:3
+LABEL maintainer="Rodrigo" 
 ENV PYTHONUNBUFFERED 1
-RUN mkdir /code
-WORKDIR /code
+RUN mkdir /DockerDjangoApi
+WORKDIR /DockerDjangoApi
 RUN pip install --upgrade pip
-COPY requirements.txt /code/
+COPY requirements.txt /DockerDjangoApi/
 RUN pip install -r requirements.txt
-COPY . /code/
-
-
-#/DockerDjangoApi
+COPY . /DockerDjangoApi/
