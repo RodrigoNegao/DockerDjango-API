@@ -1,9 +1,9 @@
 # Projeto de uso de Modelo Docker Django REST API
 
 ## Login
-Username: hero
-Email address: hero@hero.com
-Password: 123456
+- Username: hero
+- Email address: hero@hero.com
+- Password: 123456
 
 ## Para uma boa instalação e testes siga a ordem abaixo.
 
@@ -15,16 +15,17 @@ Password: 123456
 
 ## Configuração Docker para Django
 - Abra **Docker Quickstart Terminal** :
-    o caminho do raiz sempre minuscula e caso de espaço use '\ '
-    ex: *cd /c/Users/rodrigo\ negao/desktop*
+    - o caminho do raiz sempre minuscula e caso de espaço use '\ '
+    - ex: *cd /c/Users/rodrigo\ negao/desktop...*
     ```bash
     cd /diretorio
     ```
-    - Vai Construir um Docker a partir do Arquivo **DockerFile**: 
+    - Vai Construir um Docker a partir do Arquivo **DockerFile**:
+             (este comando serve para atualizar tbem)
     ```bash
     docker-compose build
     ```
-    - Rode no Terminal para Criar as config *docker-compose.yml*:
+    - Rode no Terminal para Criar as config do *docker-compose.yml*:
     ```bash
     docker-compose up
     ```
@@ -81,5 +82,5 @@ ipconfig
 ```bash 
 python manage.py runserver 0.0.0.0:8000
 ```
-- digite no Browser di seu celular o ip encontrado - 'http://ip-address:8000'
+- digite no Browser do seu celular o ip encontrado - 'http://ip-address:8000'
 
