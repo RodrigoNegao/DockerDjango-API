@@ -16,7 +16,7 @@
 ## Configuração Docker para Django
 - Abra **Docker Quickstart Terminal** :
     - o caminho do raiz sempre minuscula e caso de espaço use '\ '
-    - ex: *cd /c/Users/rodrigo\ negao/desktop...*
+    - ex: *cd /c/Users/rodrigo\ negao/desktop/DockerDjangoApi*
     ```bash
     cd /diretorio
     ```
