@@ -1,4 +1,4 @@
-# **Projeto de uso de Modelo Docker Django REST API**
+# **Projeto de uso de Modelo Docker Django REST API** :snake: :whale:
 
 ## Login
 - Username: hero
@@ -7,13 +7,13 @@
 
 ## Para uma boa instalação e testes siga a ordem abaixo.
 
-# Teste Django no Docker
+# Teste Django no Docker :whale:
 ## Instalção do DockerTOOLS (Docker para Windows Home)
 - 1º [Tutorial do DockerTOOLS](https://docs.docker.com/toolbox/toolbox_install_windows/)
 - 2º [Programa DockerTOOLS](https://github.com/docker/toolbox/releases)
 - Quando for Instalar, Habilite 'Kitematic' na Instalação.
 
-## Configuração Docker para Django
+##  Configuração Docker para Django
 - Abra **Docker Quickstart Terminal** :
     - o caminho do raiz sempre minuscula e caso de espaço use '\ '
     - ex: *cd /c/Users/rodrigo\ negao/desktop/DockerDjangoApi*
@@ -68,7 +68,7 @@ python manage.py migrate
 python manage.py createsuperuser
 ```
 
-## Teste no Celular - Windows
+## :calling: Teste no Celular - Windows/Docker
 - Abra cmd 
 - Digite 
 ```bash
