@@ -31,7 +31,7 @@
     ```
     - Caso tenha algum problema, Control+C para parar o Server (Terminal pode ser Instavel para rodar o **db**)
 
-- Se der problema em rodar o Docker abra **Kitematic** que foi instalado :
+- Pode haver problemas de Conflito em rodar o Docker no Terminal, então abra **Kitematic** que foi instalado :
     - Quando você usou Terminal, vai estar criado os Dockers do **db** e da **web**;
     1. Inicialize o dockerdjangoapi_db_1
     2. Inicialize o dockerdjangoapi_web_1
