@@ -39,7 +39,9 @@
 - Vai abrir o exemplo no lado , mas tera a opção de abrir no Browser Padrão.
 
 - **Modelo do Tutorial [Docker Compose para Django](https://docs.docker.com/compose/django/)**
-
+# Implantar aplicativo baseado em Django :pushpin:
+- no Amazon Lightsail
+- [Tutorial](https://aws.amazon.com/pt/getting-started/hands-on/deploy-python-application/)
 
 # Teste Django no Windows
 ## Criar Conda Config Django
