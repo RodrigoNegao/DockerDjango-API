@@ -1,19 +1,48 @@
-# **Projeto de uso de Modelo Docker Django REST API** :snake: :whale:
+## **Projeto de uso de Modelo Docker Django REST API** :snake: :whale:
 
-## Login
+### Login
 - Username: hero
 - Email address: hero@hero.com
 - Password: 123456
 
 ## Para uma boa instalação e testes siga a ordem abaixo.
 
-# Teste Django no Docker :whale:
-## Instalção do DockerTOOLS (Docker para Windows Home)
+## Ambiente Django no Windows
+
+[Configurar Ambiente (Env) no Python](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
+
+## Criar Ambiente com Conda
+- Instale o ANACONDA 
+- Primeiro Configure cmd [Configurar Ambiente(Env) Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+- Digite: 
+```bash
+activate base
+```
+- Crie um Env no cmd: 
+```bash
+conda create -n DDAPI python
+```
+- Ative:
+```bash
+ activate DDAPI
+ ```
+- Instale os Modulos:
+```bash
+ pip install -r requirements.txt
+ ```
+### Config Django
+```bash
+python manage.py makemigrations
+python manage.py migrate
+python manage.py createsuperuser
+```
+## Ambiente Docker para Django :whale:
+### Instalação do DockerTOOLS (Docker para Windows Home)
 - 1º [Tutorial do DockerTOOLS](https://docs.docker.com/toolbox/toolbox_install_windows/)
 - 2º [Programa DockerTOOLS](https://github.com/docker/toolbox/releases)
 - Quando for Instalar, Habilite 'Kitematic' na Instalação.
 
-##  Configuração Docker para Django
+### Configuração Docker para Django
 - Abra **Docker Quickstart Terminal** :
     - o caminho do raiz sempre minuscula e caso de espaço use '\ '
     - ex: *cd /c/Users/rodrigo\ negao/desktop/DockerDjangoApi*
@@ -43,32 +72,6 @@
 - no Amazon Lightsail
 - [Tutorial](https://aws.amazon.com/pt/getting-started/hands-on/deploy-python-application/)
 
-# Teste Django no Windows
-## Criar Conda Config Django
-- Instale o ANACONDA 
-- Primeiro Configure cmd [Configurar Conda Env](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
-- Digite: 
-```bash
-activate base
-```
-- Crie um Env no cmd: 
-```bash
-conda create -n DDAPI python
-```
-- Ative:
-```bash
- activate DDAPI
- ```
-- Instale os Modulos:
-```bash
- pip install -r requirements.txt
- ```
-## Config Django
-```bash
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
-```
 
 ## :calling: Teste no Celular - Windows/Docker
 - Abra cmd 
