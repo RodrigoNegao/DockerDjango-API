@@ -7,11 +7,11 @@
 
 ## Para uma boa instalação e testes siga a ordem abaixo.
 
-## Ambiente Django no Windows
+### Ambiente Django no Windows
 
 [Configurar Ambiente (Env) no Python](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/26/python-virtual-env/)
 
-## Criar Ambiente com Conda
+### Criar Ambiente com Conda
 - Instale o ANACONDA 
 - Primeiro Configure cmd [Configurar Ambiente(Env) Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
 - Digite: 
@@ -68,7 +68,7 @@ python manage.py createsuperuser
 - Vai abrir o exemplo no lado , mas tera a opção de abrir no Browser Padrão.
 
 - **Modelo do Tutorial [Docker Compose para Django](https://docs.docker.com/compose/django/)**
-# Implantar aplicativo baseado em Django :pushpin:
+## Implementar aplicativo baseado em Django :pushpin:
 - no Amazon Lightsail
 - [Tutorial](https://aws.amazon.com/pt/getting-started/hands-on/deploy-python-application/)
 
