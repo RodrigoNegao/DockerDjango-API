@@ -10,7 +10,7 @@ cryptography==3.2
 distro==1.5.0
 Django==3.0.8
 django-filter==2.3.0
-djangorestframework==3.11.0
+djangorestframework==3.11.2
 docker==4.2.2
 docker-compose==1.26.2
 dockerpty==0.4.1
