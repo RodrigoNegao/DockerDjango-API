@@ -21,7 +21,7 @@ jsonschema==3.2.0
 lazy-object-proxy==1.4.3
 Markdown==3.2.2
 mccabe==0.6.1
-paramiko==2.7.1
+paramiko==2.10.1
 pipreqs==0.4.10
 psycopg2==2.8.5
 pycparser==2.20
